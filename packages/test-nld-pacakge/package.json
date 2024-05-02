@@ -1,7 +1,7 @@
 {
   "name": "@noldus/test-nld-pacakge",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Test package to publish to private repo",
   "author": "Srikrishna Dasu <srikrishna.dasu@noldus.com>",
   "homepage": "",
