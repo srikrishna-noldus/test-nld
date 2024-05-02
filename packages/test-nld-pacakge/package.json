@@ -1,0 +1,26 @@
+{
+  "name": "@noldus/test-nld-pacakge",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test package to publish to private repo",
+  "author": "Srikrishna Dasu <srikrishna.dasu@noldus.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/test-nld-pacakge.js",
+  "types": "dist/test-nld-pacakge.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx lerna run build --scope=@noldus/test-nld-pacakge && jest",
+    "test1": "node ./__tests__/test-nld-pacakge.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
